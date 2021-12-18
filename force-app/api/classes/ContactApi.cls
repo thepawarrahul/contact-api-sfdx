@@ -14,6 +14,10 @@ global without sharing class ContactApi {
     global static String doPost(String name,
         String email,
         String comment) {
+
+        // TODO 1. Generalize the API.
+        //      2. Add Unit Tests.
+        //      3. Add the Error Handling.
         Contact contactRecord = new Contact();
         contactRecord.LastName = name;
         contactRecord.Email = email;
